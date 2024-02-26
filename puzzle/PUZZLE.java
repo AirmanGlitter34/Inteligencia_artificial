@@ -3,7 +3,7 @@ package puzzle;
 public class PUZZLE {
     public static void main(String[] args) {
 
-	String estadoInicial = "41275386 ";
+	String estadoInicial = "3412 89657 ";
 	String estadoFinal   = "12345678 ";
 	
     
