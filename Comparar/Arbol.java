@@ -36,12 +36,10 @@ public class Arbol{
         {
             estadosVisitados.add(nodoActual.getEstado());
             //Generar a los Nodos Hijos
-            Collection<String> hijos = nodoActual.generaHijos();	//<-- Cada Equipo tiene que ingeniarselas para crear este metodo!
+            Collection<String> hijos = nodoActual.generaHijos();	
             for (String hijo : hijos) {
                 if(!estadosVisitados.contains(hijo))
                 {
-                    //System.out.println("---Metiendo nuevo Nodo");
-                    //Crear nuevo Nodo.
                     Nodo nHijo = new Nodo(hijo);
                     nHijo.setPadre(nodoActual);
                     estadosPorVisitar.add(nHijo);
@@ -63,12 +61,10 @@ public class Arbol{
         {
             estadosVisitados.add(nodoActual.getEstado());
             //Generar a los Nodos Hijos
-            Collection<String> hijos = nodoActual.generaHijos();	//<-- Cada Equipo tiene que ingeniarselas para crear este metodo!
+            Collection<String> hijos = nodoActual.generaHijos();	
             for (String hijo : hijos) {
                 if(!estadosVisitados.contains(hijo))
                 {
-                    //System.out.println("---Metiendo nuevo Nodo");
-                    //Crear nuevo Nodo.
                     Nodo nHijo = new Nodo(hijo);
                     nHijo.setPadre(nodoActual);
                     estadosPorVisitar.add(nHijo);
