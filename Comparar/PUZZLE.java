@@ -29,13 +29,6 @@ public class PUZZLE {
 	        System.out.println("Busqueda por Profundidad");
 	        System.out.println("Segundos: "+(float)Tiempo2/1000000000);
 	        
-	        
-	        
-	        /*
-	        Nodo n = new Nodo(estadoInicial);
-	        Collection<String> c = n.generaHijos();
-	        c = c;
-	        */
 	    }
 	    
 }
