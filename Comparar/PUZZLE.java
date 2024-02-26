@@ -1,7 +1,7 @@
 package Comparar;
 
 public class PUZZLE {
-	  public static String estadoInicial = "12578 346";
+	  public static String estadoInicial = "3412 89657";
 	    public static String estadoFinal = "12345678 ";
 	    
 	    public static void main(String[] args) {
